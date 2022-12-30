@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/logo/logo-icon.svg" type="image/x-icon">
+    <title>PhotoNomad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    
+      <!-- loader --> 
+      <div class="loader">
+        <span class="letter">L</span>
+        <span class="letter">O</span>
+        <span class="letter">A</span>
+        <span class="letter">D</span>
+        <span class="letter">I</span>
+        <span class="letter">N</span>
+        <span class="letter">G</span>
+        <span class="letter">.</span>
+        <span class="letter">.</span>
+        <span class="letter">.</span>
+    </div>
+    <!-- loader -->
+
+    <div class="toggle" id="toggle">
+        <i class="indicator"></i>
+    </div>
+
+    <div class="nameleft">
+        <p>B</p>
+        <p>O</p>
+        <p>U</p>
+        <p>N</p>
+        <p>A</p>
+        <p>R</p>
+    </div>
+    <div class="nameright">
+        <p>B</p>
+        <p>O</p>
+        <p>U</p>
+        <p>N</p>
+        <p>A</p>
+        <p>R</p>
+    </div>
+
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div> 
+
+    <header>
+        <nav>
+            <div class="contain">
+                <h3 class="logo" data-speed="0.1">Photo<span>Nomad</span></h3>
+
+                <div class="list-menu">
+                    <ul>
+                        <li class="menu-item home"><a href="#">Home</a></li>
+                        <li class="menu-item work"><a href="#" >Work</a></li>
+                        <li class="menu-item about"><a href="#">About</a></li>
+                        <li class="menu-item contact"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+
+        <h1 class="big-title translate" data-speed="0.1">Photographer.</h1>
+
+        <img src="image/Day/person.png" class="personDay translate" data-speed="-0.1" alt="person">
+        <img src="image/Night/person-night.png" class="personNight translate" data-speed="-0.1" alt="person">
+
+        <img src="image/Day/rock1.png" class="rockDay1 translate" data-speed="0.2" alt="rock">
+        <img src="image/Night/rock1-night.png" class="rockNight1 translate" data-speed="0.2" alt="rock">
+
+        <img src="image/Day/rock2.png" class="rockDay2 translate" data-speed="0.3" alt="rock">
+        <img src="image/Night/rock2-night.png" class="rockNight2 translate" data-speed="0.3" alt="rock">
+
+        <img src="image/Day/rock3.png" class="rockDay3 translate" data-speed="0.6" alt="rock">
+        <img src="image/Night/rock3-night.png" class="rockNight3 translate" data-speed="0.6" alt="rock">
+
+        <img src="image/Day/sky.jpg" class="skyDay translate" data-speed="0.6" alt="sky">
+        <img src="image/Night/sky-night.jpg" class="skyNight translate" data-speed="0.6" alt="sky">
+
+        <img src="image/Night/moon.png" class="moon translate" data-speed="0.8" alt="moon">
+
+
+        
+        <aside class="modalBack">
+            <div class="menuMobile">
+                <div class="list-menu">
+                    <ul>
+                        <li class="menu-item home"><a href="#">Home</a></li>
+                        <li class="menu-item work"><a href="#" >Work</a></li>
+                        <li class="menu-item about"><a href="#">About</a></li>
+                        <li class="menu-item contact"><a href="#" id="lastchildmenu">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </header>
+    
+    <section class="about">
+        <div class="shadow-top"></div>
+        <div class="shadow-bottom"></div>
+
+        <div class="contain">
+            <div class="content">
+                    <h3 class="title reveal-1">ABOUT ME</h3>
+
+                    <div class="reveal-2">
+                        <div class="picture">
+                            <img class="me" src="/image/Day/Me.png" alt="picture">
+                        </div>
+
+                        <p class="text reveal-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto, modi magni beatae, asperiores repellat quo, 
+                            iste perspiciatis voluptatibus ratione nemo rem a veniam? Quod veniam sequi nam, maxime earum autem optio! Officiis perferendis 
+                            iure quisquam culpa voluptas maiores, illum consequuntur dicta nobis esse asperiores fugiat eaque distinctio dignissimos architecto ipsum. 
+                            Sed ex quis praesentium! Dignissimos reprehenderit illo nesciunt sapiente? Ipsum quia necessitatibus, autem vitae blanditiis libero 
+                            eaque accusantium, aliquid eos cumque deserunt nemo at deleniti mollitia? Delectus ea porro laboriosam aliquid animi aliquam, 
+                            maiores vitae provident quasi illum officia, voluptates laudantium id dignissimos veritatis beatae at minus repellendus dolorum?
+                        </p>
+                    </div>
+                </div>   
+            </div> 
+    </section>
+    
+    <section class="work">
+        <div class="contain">
+            <div class="content">
+                <h3 class="title reveal-1">
+                    MY WORK
+                </h3>
+            </div>
+
+            <div class="slider reveal-2">
+                <div class="slide-track">
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="img"></div>
+                    </div>
+                </div>
+            </div>   
+        </div> 
+    </section>
+
+    <section class="contact">
+        <div class="contain">
+            <div class="content">
+                <h3 class="title reveal-1">
+                    CONTACT ME
+                </h3>
+            </div>
+
+            <div class="input-content reveal-2">
+                <form action="#" >
+                    <input type="text" id="name" name="name" placeholder="Name" >
+
+                    <input type="text" id="email" name="email" placeholder="E-mail">
+
+                    <textarea id="message" name="message" placeholder="Message"></textarea>
+
+                    <button type="button" id="button">Send</button>
+                </form>
+
+                <div class="group-logo reveal-3">
+                    <div class="logo-facebook"><a href="#"><img src="/image/logo/logo-facebook.png" alt="logo gacebbok"></a></div>
+                    <div class="logo-instagram"><a href="#"><img src="/image/logo/logo-instagram.png" alt="logo instagram"></a></div>
+                    <div class="logo-twitter"><a href="#"><img src="/image/logo/logo-twitter.png" alt="logo twitter"></a></div>
+                    <div class="logo-linkedin"><a href="#"><img src="/image/logo/logo-linkedin.png" alt="logo linkedin"></a></div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    
+    <div class="copyright">© 2022 Rida Bounar All Rights Reserved</div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</body>
+</html>
+
