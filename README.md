@@ -26,7 +26,7 @@ with an addional parallax to animate the whole.
 
 ## Process
 
-[Process-photonomad-code](https://user-images.githubusercontent.com/79086040/210119357-f60aa22e-8fc5-44df-9fb9-b479944de7c5.png)
+![Process-photonomad-code](https://user-images.githubusercontent.com/79086040/211347996-a8e64e14-5578-426a-859b-037415ea219e.png)
 
 [PhotoNomad.webm](https://user-images.githubusercontent.com/79086040/211347515-b63398e9-733e-4d47-a70b-03b21aa24827.webm)
 
