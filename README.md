@@ -28,4 +28,3 @@ with an addional parallax to animate the whole.
 
 ![Process-photonomad-code](https://user-images.githubusercontent.com/79086040/210119357-f60aa22e-8fc5-44df-9fb9-b479944de7c5.png)
 
-[PhotoNomad -video.webm](https://user-images.githubusercontent.com/79086040/210119176-c6121c0b-611b-4ad8-b6b5-27e0f16fae09.webm)
